@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/arb-travel/static/js/main.de8f03ef.js",
+    "main.js": "/arb-travel/static/js/main.8564d79f.js",
     "index.html": "/arb-travel/index.html",
-    "main.de8f03ef.js.map": "/arb-travel/static/js/main.de8f03ef.js.map"
+    "main.8564d79f.js.map": "/arb-travel/static/js/main.8564d79f.js.map"
   },
   "entrypoints": [
-    "static/js/main.de8f03ef.js"
+    "static/js/main.8564d79f.js"
   ]
 }
