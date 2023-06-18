@@ -1,0 +1,43 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Volkhov', serif;
+  color: $heading-color;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
