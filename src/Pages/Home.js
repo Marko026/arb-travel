@@ -14,7 +14,7 @@ const Home = ({ destinations, setDestinations }) => {
             <p className="lead fw-bold">Best Destinations around the world</p>
             <h1 className="position-relative">
               Travel, enjoy and live a new and full life
-              <img className="img-fluid position-absolute" src="../img/vector.png" alt="" />
+              <img className="img-fluid position-absolute" src="./img/vector.png" alt="" />
             </h1>
             <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
             <div className="hero-links mb-4 mb-md-0">
