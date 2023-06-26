@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/https.//Marko026.github.io/arb-travel/static/js/main.22fd4b60.js",
-    "index.html": "/https.//Marko026.github.io/arb-travel/index.html",
-    "main.22fd4b60.js.map": "/https.//Marko026.github.io/arb-travel/static/js/main.22fd4b60.js.map"
+    "main.js": "/arb-travel/static/js/main.22fd4b60.js",
+    "index.html": "/arb-travel/index.html",
+    "main.22fd4b60.js.map": "/arb-travel/static/js/main.22fd4b60.js.map"
   },
   "entrypoints": [
     "static/js/main.22fd4b60.js"
