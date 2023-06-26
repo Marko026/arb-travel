@@ -96,7 +96,7 @@ const Home = ({ destinations, setDestinations }) => {
                     <Link to="destinations">
                       <article className="border rounded-4">
                         <div className="dest-img mb-3">
-                          <img className="img-fluid rounded-top-3 w-100" src={dest.img} alt="" />
+                          <img className="img-fluid rounded-top-3 w-100" src={`./${dest.img}`} alt="" />
                         </div>
                         <div className="dest-desc px-2">
                           <div className="dest-title d-flex align-items-start justify-content-between">
