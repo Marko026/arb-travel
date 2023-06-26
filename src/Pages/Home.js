@@ -30,7 +30,7 @@ const Home = ({ destinations, setDestinations }) => {
       </section >
 
       <section className="services position-relative">
-        <img className="d-none d-lg-block img-fluid position-absolute end-0" src="./img/marks.png" alt="" />
+        <img className="d-none d-lg-block img-fluid position-absolute end-0" src="../img/marks.png" alt="" />
         <div className="service-title text-center">
           <h4 className="text-uppercase">category</h4>
           <h2 className="text-capitalize">we offer best services</h2>
@@ -38,7 +38,7 @@ const Home = ({ destinations, setDestinations }) => {
         <div className="row container justify-content-md-around  align-items-end m-auto p-0 flex-md-wrap flex-lg-nowrap gap-md-1">
           <div className="service-item col-md-5 col-lg-2 text-center p-2 h-100 mb-5">
             <article>
-              <img className="mb-4" src="./img/antene.png" alt="" />
+              <img className="mb-4" src="../img/antene.png" alt="" />
               <div className="service-text">
                 <h4>Calculated Weather</h4>
                 <p>Built Wicket longer admire do barton vanity itself do in it.</p>
