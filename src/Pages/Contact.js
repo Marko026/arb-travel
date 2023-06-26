@@ -1,6 +1,7 @@
 import React from 'react'
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
+import contact from '../assets/img/contact.png'
 
 const Contact = () => {
 
@@ -88,7 +89,7 @@ const Contact = () => {
             </form>
           </div>
           <div className="col-md-6">
-            <img src="./img/contact.png" alt="" />
+            <img src={contact} alt="" />
           </div>
         </div>
       </section>

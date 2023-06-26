@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { StarRating } from '../components/StarRating'
 import SignIn from '../components/SignIn'
 
+
 const Details = ({ destinations }) => {
 
 
@@ -20,7 +21,7 @@ const Details = ({ destinations }) => {
         <div className="card mb-3">
           <div className="row g-0">
             <div className="col-md-6">
-              <img src={`/${destination.img}`} className="w-100 rounded-start" alt="..." />
+              <img src={destination.img} className="w-100 rounded-start" alt="..." />
             </div>
             <div className="col-md-6 d-flex flex-column">
               <div className="card-body">

@@ -1,6 +1,17 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 
+import italy from '../assets/img/italija.jpg'
+import england from '../assets/img/engleska.jpg'
+import maldives from '../assets/img/maldivi.jpg'
+import dubayy from '../assets/img/uae.jpg'
+import indonezija from '../assets/img/indonezija.jpg'
+import dominicana from '../assets/img/dominikana.jpg'
+import spain from '../assets/img/spain.jpg'
+import serbia from '../assets/img/serbia.jpg'
+
+
+
 const Dashboard = ({ destinations, setDestinations, edit, setEdit }) => {
 
   const [name, setName] = useState("")
@@ -125,14 +136,14 @@ const Dashboard = ({ destinations, setDestinations, edit, setEdit }) => {
           <div className="col-sm-4">
             <select onChange={(e) => setImg(e.target.value)} value={img} className="form-select form-select-lg">
               <option >Img...</option>
-              <option value="img/engleska.jpg">Engleska</option>
-              <option value="img/italija.jpg">Italija</option>
-              <option value="img/dominikana.jpg">Dominikana</option>
-              <option value="img/maldivi.jpg">Maldivi</option>
-              <option value="img/uae.jpg">Uae</option>
-              <option value="img/indonezija.jpg">Indonezija</option>
-              <option value="img/spain.jpg">Spain</option>
-              <option value="img/serbia.jpg">Serbia</option>
+              <option value={italy}>Engleska</option>
+              <option value={england}>Italija</option>
+              <option value={dominicana}>Dominikana</option>
+              <option value={maldives}>Maldivi</option>
+              <option value={dubayy}>Uae</option>
+              <option value={indonezija}>Indonezija</option>
+              <option value={spain}>Spain</option>
+              <option value={serbia}>Serbia</option>
             </select>
           </div>
 

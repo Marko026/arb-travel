@@ -4,12 +4,14 @@ import { StarRating } from '../components/StarRating'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import SignIn from '../components/SignIn'
+import destHero from '../assets/img/destination-hero.png'
+
 const Destinations = ({ destinations, setDestinations }) => {
 
   const [searchTerm, setSearchTerm] = useState([])
   const [backtoOldArray, setBacktoOldArray] = useState([])
 
-  let start = "start"
+
 
 
   useEffect(() => {
@@ -19,7 +21,6 @@ const Destinations = ({ destinations, setDestinations }) => {
     })
     setBacktoOldArray(filteredArray)
   }, [searchTerm])
-
 
 
   return (
@@ -37,7 +38,7 @@ const Destinations = ({ destinations, setDestinations }) => {
             <SignIn />
           </div>
           <div className="col-12 col-lg-6">
-            <img src="./img/destination-hero.png" alt="" />
+            <img src={destHero} alt="" />
           </div>
         </div>
       </section>
@@ -55,6 +56,8 @@ const Destinations = ({ destinations, setDestinations }) => {
       </section>
 
 
+
+
       <section className="section-destination py-5">
         <div className="container m-auto">
           <div className="row py-0 py-md-5 position-relative justify-content-md-around justify-content-lg-start">
@@ -67,7 +70,18 @@ const Destinations = ({ destinations, setDestinations }) => {
             }
 
             {
+              backtoOldArray.length === 0
+                ?
+                <div className="text-center">
+                  <h1 className="text-capitalize">No results found</h1>
+                </div>
+                :
+                null
+            }
+            {
               backtoOldArray.map((destination, idx) => {
+
+
 
                 return (
                   <div key={destination.id} className="dest-items col-md-5 col-lg-4 col-xl-3  mb-5 ">

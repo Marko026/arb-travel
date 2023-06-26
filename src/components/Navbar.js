@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import logo from "../assets/img/Logo.png"
 
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar container navbar-expand-lg bg-transparent-blur fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img className="img-fluid" src="img/Logo.png" alt="" />
+            <img className="img-fluid" src={logo} alt="" />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

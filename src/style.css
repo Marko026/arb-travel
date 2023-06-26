@@ -235,7 +235,6 @@ header nav .nav-item .nav-link:hover {
   }
 }
 .book-trip .slika {
-  background-image: url("./img/santorini.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

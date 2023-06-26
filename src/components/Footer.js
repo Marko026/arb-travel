@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../assets/img/Logo.png'
+import googlePlay from '../assets/img/google-play.png'
+import apple from '../assets/img/apple.png'
 
 const Footer = () => {
   return (
@@ -7,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-between mb-5">
           <div className="col-sm-4 col-lg-2 text-center text-sm-start">
-            <img className="img-fluid mb-3" src="img/Logo.png" alt="" />
+            <img className="img-fluid mb-3" src={logo} alt="" />
             <p>Book your trip in minute, get full Control for much longer.</p>
           </div>
           <div className="col-sm-4 col-lg-2 text-center text-sm-start">
@@ -64,10 +67,10 @@ const Footer = () => {
             <p className="text-center">Discover our app</p>
             <div className="app d-flex justify-content-center gap-3">
               <a className="bg-dark px-4 py-2 rounded-4" href="/">
-                <img className="img-fluid" src="img/google-play.png" alt="" />
+                <img className="img-fluid" src={googlePlay} alt="" />
               </a>
               <a href="/" className="bg-dark px-4 py-2 rounded-4">
-                <img className="img-fluid bg-dark" src="img/apple.png" alt="" />
+                <img className="img-fluid bg-dark" src={apple} alt="" />
               </a>
             </div>
           </div>
