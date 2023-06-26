@@ -126,13 +126,13 @@ const Dashboard = ({ destinations, setDestinations, edit, setEdit }) => {
             <select onChange={(e) => setImg(e.target.value)} value={img} className="form-select form-select-lg">
               <option >Img...</option>
               <option value="img/engleska.jpg">Engleska</option>
-              <option value="img/italija">Italija</option>
-              <option value="img/dominikana">Dominikana</option>
-              <option value="img/maldivi">Maldivi</option>
-              <option value="img/uae">Uae</option>
-              <option value="img/indonezija">Indonezija</option>
-              <option value="img/spain">Spain</option>
-              <option value="img/serbia">Serbia</option>
+              <option value="img/italija.jpg">Italija</option>
+              <option value="img/dominikana.jpg">Dominikana</option>
+              <option value="img/maldivi.jpg">Maldivi</option>
+              <option value="img/uae.jpg">Uae</option>
+              <option value="img/indonezija.jpg">Indonezija</option>
+              <option value="img/spain.jpg">Spain</option>
+              <option value="img/serbia.jpg">Serbia</option>
             </select>
           </div>
 

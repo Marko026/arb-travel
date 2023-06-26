@@ -37,13 +37,13 @@ const Destinations = ({ destinations, setDestinations }) => {
             <SignIn />
           </div>
           <div className="col-12 col-lg-6">
-            <img src="img/destination-hero.png" alt="" />
+            <img src="./img/destination-hero.png" alt="" />
           </div>
         </div>
       </section>
 
 
-      <section className="search">
+      <section className="search container">
         <div className="destination-title text-center mb-5">
           <h4 className="text-capitalize">Search destinations</h4>
         </div>
@@ -61,9 +61,9 @@ const Destinations = ({ destinations, setDestinations }) => {
             {
               backtoOldArray.length < 4
                 ?
-                <img className="img-fluid position-absolute wire end-0 d-none " src="img/wire.png" alt="" />
+                <img className="img-fluid position-absolute wire end-0 d-none " src="./img/wire.png" alt="" />
                 :
-                <img className="img-fluid position-absolute wire end-0 d-none d-lg-block" src="img/wire.png" alt="" />
+                <img className="img-fluid position-absolute wire end-0 d-none d-lg-block" src="./img/wire.png" alt="" />
             }
 
             {
