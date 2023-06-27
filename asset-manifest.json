@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/arb-travel/static/js/main.01311bdb.js",
+    "main.js": "/arb-travel/static/js/main.4de53e50.js",
     "static/media/girl.png": "/arb-travel/static/media/girl.13aa53741a8492f56594.png",
     "static/media/santorini.png": "/arb-travel/static/media/santorini.b1afdfb9e9a2128e6a1f.png",
     "static/media/contact.png": "/arb-travel/static/media/contact.5fd7bad96bdc5839c310.png",
@@ -20,9 +20,9 @@
     "static/media/rings2.png": "/arb-travel/static/media/rings2.47b1e8e7be60b780368b.png",
     "static/media/face.png": "/arb-travel/static/media/face.d0432bf1ecb46d9aeec0.png",
     "index.html": "/arb-travel/index.html",
-    "main.01311bdb.js.map": "/arb-travel/static/js/main.01311bdb.js.map"
+    "main.4de53e50.js.map": "/arb-travel/static/js/main.4de53e50.js.map"
   },
   "entrypoints": [
-    "static/js/main.01311bdb.js"
+    "static/js/main.4de53e50.js"
   ]
 }
