@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/arb-travel/static/js/main.3fd246e7.js",
+    "main.js": "/arb-travel/static/js/main.93af6f69.js",
     "static/media/girl.png": "/arb-travel/static/media/girl.13aa53741a8492f56594.png",
     "static/media/santorini.png": "/arb-travel/static/media/santorini.b1afdfb9e9a2128e6a1f.png",
     "static/media/contact.png": "/arb-travel/static/media/contact.5fd7bad96bdc5839c310.png",
@@ -8,6 +8,7 @@
     "static/media/indonezija.jpg": "/arb-travel/static/media/indonezija.3a222b429f4e7841fc28.jpg",
     "static/media/engleska.jpg": "/arb-travel/static/media/engleska.a95d65d94a4a2e2bf6ff.jpg",
     "static/media/italija.jpg": "/arb-travel/static/media/italija.b6fb804211f9acd7082e.jpg",
+    "static/media/decore.png": "/arb-travel/static/media/decore.24f6b0ddf43b81fe5e58.png",
     "static/media/uae.jpg": "/arb-travel/static/media/uae.b3b3fa5bb89539b0d5d9.jpg",
     "static/media/dominikana.jpg": "/arb-travel/static/media/dominikana.ed759c78384144b09660.jpg",
     "static/media/spain.jpg": "/arb-travel/static/media/spain.ecfa589cce05104625f3.jpg",
@@ -19,9 +20,9 @@
     "static/media/rings2.png": "/arb-travel/static/media/rings2.47b1e8e7be60b780368b.png",
     "static/media/face.png": "/arb-travel/static/media/face.d0432bf1ecb46d9aeec0.png",
     "index.html": "/arb-travel/index.html",
-    "main.3fd246e7.js.map": "/arb-travel/static/js/main.3fd246e7.js.map"
+    "main.93af6f69.js.map": "/arb-travel/static/js/main.93af6f69.js.map"
   },
   "entrypoints": [
-    "static/js/main.3fd246e7.js"
+    "static/js/main.93af6f69.js"
   ]
 }
